@@ -1,4 +1,4 @@
-const modelImage = '/src/assets/zirveyolu.png'
+
 
 export function ModelImageSection() {
   return (
@@ -7,10 +7,9 @@ export function ModelImageSection() {
         <div className="absolute -inset-4 rounded-[2rem] bg-[conic-gradient(from_180deg,_rgba(34,211,238,0.18),_rgba(147,51,234,0.16),_rgba(249,115,22,0.22),_rgba(34,211,238,0.18))] blur-2xl" />
         <div className="relative overflow-hidden rounded-[2rem] border border-cyan-300/20 bg-slate-950/60 p-3 shadow-[0_0_60px_rgba(34,211,238,0.18)] backdrop-blur-xl">
           <img
-            src={modelImage}
-            alt="ZİRVEYOLU model diyagramı"
-            className="w-full rounded-[1.4rem] object-cover"
-          />
+  src="/zirveyolu.png"
+  alt="ZİRVEYOLU model diyagramı"
+/>
         </div>
       </div>
 
